@@ -8,3 +8,5 @@
 **Second Step:** Is to clean the dataset from empty values ​​and incomplete information and then make a visualization of data and design clear charts to present data information
 
 **Third Step:** After I present data about the Belgian Real Estate market, I create a Machine Learning model to predict prices on Belgium's real estate sales.
+
+1
