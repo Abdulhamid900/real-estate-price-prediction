@@ -1,11 +1,10 @@
 # import necessary libraries:
-
 import pandas as pd
 import joblib
 from flask import Flask, request,jsonify
 
 #Creat local api using Flask:
- 
+
 app = Flask(__name__)
 
 load_model = joblib.load('price_prediction_model.sav', mmap_mode ='r')
