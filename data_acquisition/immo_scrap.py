@@ -1,9 +1,12 @@
+# Import necessary libraries
 import json
 import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from tomlkit import value
 from bs4 import BeautifulSoup
+
+# Create function take URL and scrape and get characteristics of property:
 
 def get_characteristics(property_url):
     driver = webdriver.Chrome()

@@ -1,6 +1,9 @@
+# Import necessary libraries
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+
+# Creat function looping over page and get all page URL:
 
 def save_property_links():
     driver = webdriver.Chrome()
