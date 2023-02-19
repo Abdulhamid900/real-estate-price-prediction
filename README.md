@@ -1,11 +1,18 @@
 # Real-Estate-Price-Prediction
 
 
-**Real Estate Price Prediction:** Is project to scrap 'immoweb.be' site to Obtain a data set consisting of information for thousands of properties in Belgium and use it to predict property prices using machine learning.
+**Real Estate Price Prediction:** Is project to scrap [immoweb](https://www.immoweb.be/en) to Obtain a data set consisting information for thousands of properties in Belgium and use it to predict property prices using Machine Learning Model.
 
-**First Step:**
 
- **'Data Acquisition'**
+### Prerequisites
+
+Requirements for the software and other tools in order to run the whole program:
+
+- [Python 3.10](https://www.python.org/downloads/)
+- [Selenium](https://www.selenium.dev/)
+-[]()
+
+ **Data Acquisition**
  Is use selenium to scrap 'immoweb.be' site and have my dataset as CSV file that contain information for thousands of properties in Belgium.
 
 **Second Step:**
