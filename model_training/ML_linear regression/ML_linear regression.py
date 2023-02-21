@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 #Open the data file and make sure that there is no missing data:
-df = pd.read_csv('immo_data.csv')
+df = pd.read_csv('input.csv')
 df.isnull().any()
 
 #change categorical data to numeric data:
