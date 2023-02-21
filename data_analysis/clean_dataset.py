@@ -2,7 +2,7 @@
 
 import numpy as np
 import pandas as pd 
-df = pd.read_csv('immo_data.csv')
+df = pd.read_csv('input.csv')
 
 #Delete unnecessary columns:
 df = df.drop(['new_price','classified_condition_isNewlyBuilt','classified_parking_parkingSpaceCount_outdoor',
@@ -33,5 +33,5 @@ df = df.sort_values(by ='province' )
 df = df[df["location"].str.contains("Luxembourg") == False]
 
 #svae the clean dataset
-df.to_csv('immo_data.csv', index=False)
+df.to_csv('input.csv', index=False)
 
